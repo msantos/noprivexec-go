@@ -1,4 +1,4 @@
-module codeberg.org/msantos/noprivexec
+module codeberg.org/msantos/noprivexec-go
 
 go 1.19
 

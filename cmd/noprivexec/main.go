@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"codeberg.org/msantos/noprivexec"
+	"codeberg.org/msantos/noprivexec-go/pkg/noprivexec"
 )
 
 func main() {
