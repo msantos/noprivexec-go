@@ -33,6 +33,3 @@ go build
 ```
 
 # OPTIONS
-
--h, --help
-: usage summary
