@@ -11,7 +11,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Fprintln(os.Stderr, "usage:", os.Args[0], "<cmd> <...>")
+		fmt.Fprintf(os.Stderr, "usage: %s <cmd> <...>", os.Args[0])
 		os.Exit(2)
 	}
 
