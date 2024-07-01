@@ -29,7 +29,7 @@ go install codeberg.org/msantos/noprivexec-go/cmd/noprivexec@latest
 ```
 
 ```
-go build
+CGO_ENABLED=0 go build -trimpath -ldflags "-w"
 ```
 
 # OPTIONS
