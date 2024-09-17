@@ -28,8 +28,10 @@ ping: icmp open socket: Operation not permitted
 go install codeberg.org/msantos/noprivexec-go/cmd/noprivexec@latest
 ```
 
+To build a reproducible executable:
+
 ```
-CGO_ENABLED=0 go build -trimpath -ldflags "-w"
+CGO_ENABLED=0 go build -trimpath -ldflags "-w" ./cmd/noprivexec/
 ```
 
 # OPTIONS
