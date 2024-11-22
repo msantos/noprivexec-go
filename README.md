@@ -35,3 +35,8 @@ CGO_ENABLED=0 go build -trimpath -ldflags "-w" ./cmd/noprivexec/
 ```
 
 # OPTIONS
+
+# ALTERNATIVES
+
+* [noprivexec](https://github.com/msantos/noprivexec)
+* [noprivexec-rs](https://codeberg.org/msantos/noprivexec-rs)
