@@ -25,7 +25,7 @@ ping: icmp open socket: Operation not permitted
 # Build
 
 ```
-go install codeberg.org/msantos/noprivexec-go/cmd/noprivexec@latest
+go install go.iscode.ca/noprivexec/cmd/noprivexec@latest
 ```
 
 To build a reproducible executable:
