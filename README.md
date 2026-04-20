@@ -11,7 +11,7 @@ a command.
 
 # EXAMPLES
 
-```
+```bash
 $ noprivexec echo test
 test
 
@@ -24,13 +24,13 @@ ping: icmp open socket: Operation not permitted
 
 # Build
 
-```
+```bash
 go install go.iscode.ca/noprivexec/cmd/noprivexec@latest
 ```
 
 To build a reproducible executable:
 
-```
+```bash
 CGO_ENABLED=0 go build -trimpath -ldflags "-w" ./cmd/noprivexec/
 ```
 
